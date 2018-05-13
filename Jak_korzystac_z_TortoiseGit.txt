@@ -1,0 +1,8 @@
+1. Skopiować url z gita
+2. Stworzyć katalog na lokalnym komputerze, w środku ppm Git -> Sklonuj
+3. Pojawi się katalog projektu
+4. Wykonać zmianę.
+5. PPM Git -> Synchronizacja
+6. Wykonać zmianę
+7. PPM Git ->zatwierdź zmianę Master
+8. wyjść do głównego katalogu PPM Push...
