@@ -1,0 +1,8 @@
+D:\Library Manager\LibraryManager\LibraryManager\Shared\bin\Debug\netcoreapp2.0\Shared.deps.json
+D:\Library Manager\LibraryManager\LibraryManager\Shared\bin\Debug\netcoreapp2.0\Shared.dll
+D:\Library Manager\LibraryManager\LibraryManager\Shared\bin\Debug\netcoreapp2.0\Shared.pdb
+D:\Library Manager\LibraryManager\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.csproj.CoreCompileInputs.cache
+D:\Library Manager\LibraryManager\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.AssemblyInfoInputs.cache
+D:\Library Manager\LibraryManager\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.AssemblyInfo.cs
+D:\Library Manager\LibraryManager\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.dll
+D:\Library Manager\LibraryManager\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.pdb

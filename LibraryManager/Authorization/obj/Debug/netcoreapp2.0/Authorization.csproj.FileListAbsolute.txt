@@ -1,0 +1,16 @@
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\bin\Debug\netcoreapp2.0\Authorization.deps.json
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\bin\Debug\netcoreapp2.0\Authorization.dll
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\bin\Debug\netcoreapp2.0\Authorization.pdb
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\obj\Debug\netcoreapp2.0\Authorization.csproj.CoreCompileInputs.cache
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\obj\Debug\netcoreapp2.0\Authorization.AssemblyInfoInputs.cache
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\obj\Debug\netcoreapp2.0\Authorization.AssemblyInfo.cs
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\obj\Debug\netcoreapp2.0\Authorization.dll
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\obj\Debug\netcoreapp2.0\Authorization.pdb
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\obj\Debug\netcoreapp2.0\Authorization.csprojAssemblyReference.cache
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\bin\Debug\netcoreapp2.0\DAL.dll
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\bin\Debug\netcoreapp2.0\DAL.pdb
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\obj\Debug\netcoreapp2.0\Authorization.csproj.CopyComplete
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\bin\Debug\netcoreapp2.0\Authorization.runtimeconfig.json
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\bin\Debug\netcoreapp2.0\Authorization.runtimeconfig.dev.json
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\bin\Debug\netcoreapp2.0\Shared.dll
+D:\Library Manager\LibraryManager\LibraryManager\Authorization\bin\Debug\netcoreapp2.0\Shared.pdb

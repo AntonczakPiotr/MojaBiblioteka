@@ -1,0 +1,43 @@
+Tabela u¿ytkownicy:
+id
+imie
+nazwisko
+login
+has³o
+uprawnienia
+telefon
+adres
+email
+
+Media:
+Id
+Typ mediów
+tytu³
+rok
+Autorzy
+ok³adka
+Miejsce przechowywania
+
+Miejsca przechowywania:
+Id
+Status miejsca (zewnêtrzy/wewnêtrzny)
+Nazwa miejsca sk³adowania - null
+Id u¿ytkownika - null
+
+Historia wypo¿yczeñ
+Id
+Id miejsca przechowywania
+Id medium
+Data rozpoczecia
+Data zakoñczenia
+
+Aplikacja swoj¹ funkjonalnoœcia obejmuje tylko u¿ytkowników zarejestrowanych i odosi siê do naszych w³asnych zasobów
+Moga istnieæ uzytkownicy bierni - bez zalogwania (brak loginu i has³a)
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+D:\Library Manager\LibraryManager\LibraryManager\Api\bin\Debug\netcoreapp2.0\Api.deps.json
+D:\Library Manager\LibraryManager\LibraryManager\Api\bin\Debug\netcoreapp2.0\Api.dll
+D:\Library Manager\LibraryManager\LibraryManager\Api\bin\Debug\netcoreapp2.0\Api.pdb
+D:\Library Manager\LibraryManager\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.csproj.CoreCompileInputs.cache
+D:\Library Manager\LibraryManager\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.AssemblyInfoInputs.cache
+D:\Library Manager\LibraryManager\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.AssemblyInfo.cs
+D:\Library Manager\LibraryManager\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.dll
+D:\Library Manager\LibraryManager\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.pdb
+D:\Library Manager\LibraryManager\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.csprojAssemblyReference.cache
+D:\Library Manager\LibraryManager\LibraryManager\Api\bin\Debug\netcoreapp2.0\DAL.dll
+D:\Library Manager\LibraryManager\LibraryManager\Api\bin\Debug\netcoreapp2.0\DAL.pdb
+D:\Library Manager\LibraryManager\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.csproj.CopyComplete
+D:\Library Manager\LibraryManager\LibraryManager\Api\bin\Debug\netcoreapp2.0\Api.runtimeconfig.json
+D:\Library Manager\LibraryManager\LibraryManager\Api\bin\Debug\netcoreapp2.0\Api.runtimeconfig.dev.json
+D:\Library Manager\LibraryManager\LibraryManager\Api\bin\Debug\netcoreapp2.0\Shared.dll
+D:\Library Manager\LibraryManager\LibraryManager\Api\bin\Debug\netcoreapp2.0\Shared.pdb
