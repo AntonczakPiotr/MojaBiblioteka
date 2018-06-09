@@ -28,23 +28,30 @@ export class RegisterComponent implements OnInit {
         this.isRequesting = true;
         this.errors = '';
 
-        //if (value.password != value.confirm)
-        //    this.confirmPass
+        if (value.password != value.confirm)
+            this.confirmPass = false;
+        else
+            this.confirmPass = true;
 
 
-        if (valid)
-        {
+
+
+        if (valid && this.confirmPass) {
             this.userService.register(value.name, value.surname, value.email, value.phone, value.adress, value.login, value.password)
                 .finally(() => this.isRequesting = false)
                 .subscribe(
-                result =>
-                {
-                    if (result)
-                    {
-                        this.router.navigate(['/login'], { queryParams: { brandNew: true, email: value.email } });
-                    }
-                },
-                errors => this.errors = errors);
+                    result => {
+                        if (result) {
+                            this.router.navigate(['/login'], { queryParams: { brandNew: true, email: value.email } });
+                        }
+                    },
+                    errors => this.errors = errors);
+        }
+        else {
+            this.userService.register(value.name, value.surname, value.email, value.phone, value.adress, value.login, value.password)
+                .finally(this.isRequesting = true)
+                .subscribe()
+
         }
     }
 }
