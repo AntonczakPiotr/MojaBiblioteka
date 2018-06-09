@@ -19,12 +19,19 @@ export class RegisterComponent implements OnInit {
     isRequesting: boolean;
     submitted: boolean = false;
 
+    private confirmPass: boolean;
+
     constructor(private userService: UserService, private router: Router) { }
 
     registerUser({ value, valid }: { value: UserRegistration, valid: boolean }) {
         this.submitted = true;
         this.isRequesting = true;
         this.errors = '';
+
+        //if (value.password != value.confirm)
+        //    this.confirmPass
+
+
         if (valid)
         {
             this.userService.register(value.name, value.surname, value.email, value.phone, value.adress, value.login, value.password)

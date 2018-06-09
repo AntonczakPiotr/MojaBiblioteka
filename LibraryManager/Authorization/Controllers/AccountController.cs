@@ -10,7 +10,6 @@ namespace Authorization.Controllers
 {
     [Produces("application/json")]
     [Route("api/Account")]
-    [EnableCors("AllowAllHeaders")]
     public class AccountController : Controller
     {
         [HttpPost]

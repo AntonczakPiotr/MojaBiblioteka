@@ -6,4 +6,5 @@
     adress: string;
     login: string;
     password: string;
+    confirm: string;
 }
