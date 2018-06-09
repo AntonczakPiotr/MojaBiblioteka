@@ -121,7 +121,8 @@ namespace DAL.Migrations
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(30)");
 
-                    b.Property<bool>("Permissions");
+                    b.Property<int>("Permissions")
+                        .HasColumnType("int");
 
                     b.Property<string>("Phone")
                         .IsRequired()

@@ -20,6 +20,9 @@ namespace DAL.Models.ModelsConfiguration
 
             usersConfiguration.Entity<Users>().Property(x => x.Password).HasColumnType("nvarchar(30)");
 
+            usersConfiguration.Entity<Users>().Property(x => x.Permissions).IsRequired();
+            usersConfiguration.Entity<Users>().Property(x => x.Permissions).HasColumnType("int");
+
             usersConfiguration.Entity<Users>().Property(x => x.Phone).IsRequired();
             usersConfiguration.Entity<Users>().Property(x => x.Phone).HasColumnType("nvarchar(9)");
 

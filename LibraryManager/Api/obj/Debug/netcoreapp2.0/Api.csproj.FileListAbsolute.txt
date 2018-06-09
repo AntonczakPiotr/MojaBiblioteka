@@ -14,3 +14,19 @@ D:\Library Manager\LibraryManager\LibraryManager\Api\bin\Debug\netcoreapp2.0\Api
 D:\Library Manager\LibraryManager\LibraryManager\Api\bin\Debug\netcoreapp2.0\Api.runtimeconfig.dev.json
 D:\Library Manager\LibraryManager\LibraryManager\Api\bin\Debug\netcoreapp2.0\Shared.dll
 D:\Library Manager\LibraryManager\LibraryManager\Api\bin\Debug\netcoreapp2.0\Shared.pdb
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\bin\Debug\netcoreapp2.0\Api.deps.json
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\bin\Debug\netcoreapp2.0\Api.runtimeconfig.json
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\bin\Debug\netcoreapp2.0\Api.runtimeconfig.dev.json
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\bin\Debug\netcoreapp2.0\Api.dll
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\bin\Debug\netcoreapp2.0\Api.pdb
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\bin\Debug\netcoreapp2.0\DAL.dll
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\bin\Debug\netcoreapp2.0\Shared.dll
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\bin\Debug\netcoreapp2.0\DAL.pdb
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\bin\Debug\netcoreapp2.0\Shared.pdb
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.csprojAssemblyReference.cache
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.csproj.CoreCompileInputs.cache
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.AssemblyInfoInputs.cache
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.AssemblyInfo.cs
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.csproj.CopyComplete
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.dll
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Api\obj\Debug\netcoreapp2.0\Api.pdb

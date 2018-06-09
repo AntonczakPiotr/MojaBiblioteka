@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Library Manager\\LibraryManager\\LibraryManager\\Shared\\Shared.csproj",
+      "projectUniqueName": "D:\\MojaBiblioteka\\MojaBiblioteka\\LibraryManager\\Shared\\Shared.csproj",
       "projectName": "Shared",
-      "projectPath": "D:\\Library Manager\\LibraryManager\\LibraryManager\\Shared\\Shared.csproj",
+      "projectPath": "D:\\MojaBiblioteka\\MojaBiblioteka\\LibraryManager\\Shared\\Shared.csproj",
       "packagesPath": "C:\\Users\\Niuniek\\.nuget\\packages\\",
-      "outputPath": "D:\\Library Manager\\LibraryManager\\LibraryManager\\Shared\\obj\\",
+      "outputPath": "D:\\MojaBiblioteka\\MojaBiblioteka\\LibraryManager\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

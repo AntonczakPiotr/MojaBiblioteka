@@ -12564,11 +12564,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Library Manager\\LibraryManager\\LibraryManager\\DAL\\DAL.csproj",
+      "projectUniqueName": "D:\\MojaBiblioteka\\MojaBiblioteka\\LibraryManager\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\Library Manager\\LibraryManager\\LibraryManager\\DAL\\DAL.csproj",
+      "projectPath": "D:\\MojaBiblioteka\\MojaBiblioteka\\LibraryManager\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\Niuniek\\.nuget\\packages\\",
-      "outputPath": "D:\\Library Manager\\LibraryManager\\LibraryManager\\DAL\\obj\\",
+      "outputPath": "D:\\MojaBiblioteka\\MojaBiblioteka\\LibraryManager\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12587,8 +12587,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Library Manager\\LibraryManager\\LibraryManager\\Shared\\Shared.csproj": {
-              "projectPath": "D:\\Library Manager\\LibraryManager\\LibraryManager\\Shared\\Shared.csproj"
+            "D:\\MojaBiblioteka\\MojaBiblioteka\\LibraryManager\\Shared\\Shared.csproj": {
+              "projectPath": "D:\\MojaBiblioteka\\MojaBiblioteka\\LibraryManager\\Shared\\Shared.csproj"
             }
           }
         }

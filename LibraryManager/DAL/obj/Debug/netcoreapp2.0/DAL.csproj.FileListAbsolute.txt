@@ -10,3 +10,15 @@ D:\Library Manager\LibraryManager\LibraryManager\DAL\obj\Debug\netcoreapp2.0\DAL
 D:\Library Manager\LibraryManager\LibraryManager\DAL\bin\Debug\netcoreapp2.0\Shared.dll
 D:\Library Manager\LibraryManager\LibraryManager\DAL\bin\Debug\netcoreapp2.0\Shared.pdb
 D:\Library Manager\LibraryManager\LibraryManager\DAL\obj\Debug\netcoreapp2.0\DAL.csproj.CopyComplete
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\DAL\bin\Debug\netcoreapp2.0\DAL.deps.json
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\DAL\bin\Debug\netcoreapp2.0\DAL.dll
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\DAL\bin\Debug\netcoreapp2.0\DAL.pdb
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\DAL\bin\Debug\netcoreapp2.0\Shared.dll
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\DAL\bin\Debug\netcoreapp2.0\Shared.pdb
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\DAL\obj\Debug\netcoreapp2.0\DAL.csprojAssemblyReference.cache
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\DAL\obj\Debug\netcoreapp2.0\DAL.csproj.CoreCompileInputs.cache
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\DAL\obj\Debug\netcoreapp2.0\DAL.AssemblyInfoInputs.cache
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\DAL\obj\Debug\netcoreapp2.0\DAL.AssemblyInfo.cs
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\DAL\obj\Debug\netcoreapp2.0\DAL.csproj.CopyComplete
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\DAL\obj\Debug\netcoreapp2.0\DAL.dll
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\DAL\obj\Debug\netcoreapp2.0\DAL.pdb
