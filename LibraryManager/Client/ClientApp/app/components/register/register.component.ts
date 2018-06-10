@@ -48,9 +48,9 @@ export class RegisterComponent implements OnInit {
                     errors => this.errors = errors);
         }
         else {
-            this.userService.register(value.name, value.surname, value.email, value.phone, value.adress, value.login, value.password)
-                .finally(this.isRequesting = true)
-                .subscribe()
+            //this.userService.register(value.name, value.surname, value.email, value.phone, value.adress, value.login, value.password)
+            //    .finally(this.isRequesting = true)
+            //    .subscribe()
 
         }
     }
