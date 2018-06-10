@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tomek\\.nuget\\packages\\": {},
+    "C:\\Users\\Niuniek\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\MojaBiblioteka\\LibraryManager\\Shared\\Shared.csproj",
+      "projectUniqueName": "D:\\MojaBiblioteka\\MojaBiblioteka\\LibraryManager\\Shared\\Shared.csproj",
       "projectName": "Shared",
-      "projectPath": "D:\\github\\MojaBiblioteka\\LibraryManager\\Shared\\Shared.csproj",
-      "packagesPath": "C:\\Users\\Tomek\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\MojaBiblioteka\\LibraryManager\\Shared\\obj\\",
+      "projectPath": "D:\\MojaBiblioteka\\MojaBiblioteka\\LibraryManager\\Shared\\Shared.csproj",
+      "packagesPath": "C:\\Users\\Niuniek\\.nuget\\packages\\",
+      "outputPath": "D:\\MojaBiblioteka\\MojaBiblioteka\\LibraryManager\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tomek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Niuniek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -688,7 +688,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {

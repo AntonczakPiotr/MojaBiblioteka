@@ -23,6 +23,8 @@
   <ItemGroup>
     <None Remove="ClientApp\app\components\login\login.component.ts" />
     <None Remove="ClientApp\app\components\register\register.component.ts" />
+    <None Remove="ClientApp\app\models\UserRegistration.ts" />
+    <None Remove="ClientApp\app\services\UserService.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +34,8 @@
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\app\components\login\login.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\register\register.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\models\UserRegistration.ts" />
+    <TypeScriptCompile Include="ClientApp\app\services\UserService.ts" />
   </ItemGroup>
 
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">

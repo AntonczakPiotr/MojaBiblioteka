@@ -9,6 +9,7 @@ import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { RegisterComponent } from './components/register/register.component';
 
 import { LoginComponent } from './components/login/login.component';
+import { UserService } from './services/UserService';
 
 @NgModule({
     declarations: [
@@ -27,7 +28,8 @@ import { LoginComponent } from './components/login/login.component';
             { path: 'register', component: RegisterComponent },
             { path: '**', redirectTo: 'login' }
         ])
-    ]
+    ],
+    providers: [UserService]
 })
 export class AppModuleShared {
 }

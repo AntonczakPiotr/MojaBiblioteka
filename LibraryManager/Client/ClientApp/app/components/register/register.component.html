@@ -2,20 +2,30 @@
     <div class="row main">
         <div class="panel-heading">
             <div class="panel-title text-center">
-                <h1 class="title">Zarejestruj się</h1>
+                <h4 class="title">Zarejestruj się</h4>
                 <hr />
             </div>
         </div>
 
         <div class="main-login main-center">
-            <form class="form-horizontal" method="post" action="#">
+            <form #f="ngForm" novalidate (ngSubmit)="registerUser(f)">
 
                 <div class="form-group">
-                    <label for="name" class="cols-sm-2 control-label">Login</label>
+                    <label for="name" class="cols-sm-2 control-label">Imie</label>
                     <div class="cols-sm-10">
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Login" />
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Imie" ngModel tmFocus />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="surname" class="cols-sm-2 control-label">Nazwisko</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                            <input type="text" class="form-control" name="surname" id="surname" placeholder="Nazwisko" ngModel />
                         </div>
                     </div>
                 </div>
@@ -25,7 +35,37 @@
                     <div class="cols-sm-10">
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-                            <input type="text" class="form-control" name="email" id="email" placeholder="Adres email" />
+                            <input type="text" class="form-control" name="email" id="email" placeholder="Adres email" ngModel />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone" class="cols-sm-2 control-label">Numer telefonu</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fas fa-phone" aria-hidden="true"></i></span>
+                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Numer telefonu" ngModel />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="adress" class="cols-sm-2 control-label">Adres użytkownika</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fas fa-home" aria-hidden="true"></i></span>
+                            <input type="text" class="form-control" name="adress" id="adress" placeholder="Adres użytkownika" ngModel />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="login" class="cols-sm-2 control-label">Login</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fas fa-user-tag" aria-hidden="true"></i></span>
+                            <input type="text" class="form-control" name="login" id="login" placeholder="Login" ngModel />
                         </div>
                     </div>
                 </div>
@@ -35,7 +75,7 @@
                     <div class="cols-sm-10">
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                            <input type="password" class="form-control" name="password" id="password" placeholder="Hasło" />
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Hasło" ngModel />
                         </div>
                     </div>
                 </div>
@@ -45,13 +85,17 @@
                     <div class="cols-sm-10">
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                            <input type="password" class="form-control" name="confirm" id="confirm" placeholder="Potwierdz hasło" />
+                            <input type="password" class="form-control" name="confirm" id="confirm" placeholder="Potwierdz hasło" ngModel />
                         </div>
                     </div>
                 </div>
 
                 <div class="form-group ">
-                    <button type="button" class="btn btn-primary btn-lg btn-block login-button">Zarejestruj się</button>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block login-button" [disabled]="f.invalid || isRequesting">Zarejestruj się</button>
+                </div>
+
+                <div *ngIf="errors" class="alert alert-danger" role="alert">
+                    <strong>Problem z: </strong> {{errors}}
                 </div>
 
             </form>
@@ -60,7 +104,7 @@
 </div>
 
 <!-- Google Fonts -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 <!-- Google Fonts -->
 <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>

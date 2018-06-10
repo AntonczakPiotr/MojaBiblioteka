@@ -6,12 +6,12 @@ D:\Library Manager\LibraryManager\LibraryManager\Shared\obj\Debug\netcoreapp2.0\
 D:\Library Manager\LibraryManager\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.AssemblyInfo.cs
 D:\Library Manager\LibraryManager\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.dll
 D:\Library Manager\LibraryManager\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.pdb
-D:\github\MojaBiblioteka\LibraryManager\Shared\bin\Debug\netcoreapp2.0\Shared.deps.json
-D:\github\MojaBiblioteka\LibraryManager\Shared\bin\Debug\netcoreapp2.0\Shared.dll
-D:\github\MojaBiblioteka\LibraryManager\Shared\bin\Debug\netcoreapp2.0\Shared.pdb
-D:\github\MojaBiblioteka\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.csprojAssemblyReference.cache
-D:\github\MojaBiblioteka\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.csproj.CoreCompileInputs.cache
-D:\github\MojaBiblioteka\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.AssemblyInfoInputs.cache
-D:\github\MojaBiblioteka\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.AssemblyInfo.cs
-D:\github\MojaBiblioteka\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.dll
-D:\github\MojaBiblioteka\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.pdb
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Shared\bin\Debug\netcoreapp2.0\Shared.deps.json
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Shared\bin\Debug\netcoreapp2.0\Shared.dll
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Shared\bin\Debug\netcoreapp2.0\Shared.pdb
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.csproj.CoreCompileInputs.cache
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.AssemblyInfoInputs.cache
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.AssemblyInfo.cs
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.dll
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.pdb
+D:\MojaBiblioteka\MojaBiblioteka\LibraryManager\Shared\obj\Debug\netcoreapp2.0\Shared.csprojAssemblyReference.cache
