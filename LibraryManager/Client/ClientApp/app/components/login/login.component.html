@@ -3,6 +3,15 @@
         <div class="panel-heading">
             <div class="panel-title text-center">
                 <h4 class="title">Zaloguj się</h4>
+                <hr />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="cols-sm-10 new-user-alert">
+                <div *ngIf="brandNew" class="alert alert-success" role="alert">
+                    <strong>Rejestracja zakończona pomyślnie!</strong> Zaloguj się na swoje konto
+                </div>               
             </div>
         </div>
 

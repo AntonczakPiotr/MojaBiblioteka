@@ -1,10 +1,15 @@
-﻿using Shared;
+﻿using Microsoft.AspNetCore.Identity;
+using Shared;
 
 namespace DAL.Models.EntityModels
 {
-    public class Users
+    public class Users : IdentityUser
     {
-        public int UserId { get; set; }
+        public Users()
+        {
+
+        }
+
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Login { get; set; }

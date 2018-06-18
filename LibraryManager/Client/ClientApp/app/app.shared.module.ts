@@ -9,7 +9,7 @@ import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { RegisterComponent } from './components/register/register.component';
 
 import { LoginComponent } from './components/login/login.component';
-import { UserService } from './services/UserService';
+import { UserService } from './services/user.service';
 
 @NgModule({
     declarations: [

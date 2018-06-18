@@ -7,8 +7,8 @@ namespace DAL.Models.ModelsConfiguration
     {
         public void OnModelCreating(ModelBuilder usersConfiguration)
         {
-            usersConfiguration.Entity<Users>().HasKey(x => x.UserId);
-            usersConfiguration.Entity<Users>().Property(x => x.UserId).HasColumnType("int");
+            //usersConfiguration.Entity<Users>().HasKey(x => x.UserId);
+            //usersConfiguration.Entity<Users>().Property(x => x.UserId).HasColumnType("int");
 
             usersConfiguration.Entity<Users>().Property(x => x.Name).IsRequired();
             usersConfiguration.Entity<Users>().Property(x => x.Name).HasColumnType("nvarchar(30)");

@@ -1,16 +1,19 @@
-﻿using DAL.Models.ModelsConfiguration;
+﻿using DAL.Models.EntityModels;
+using DAL.Models.ModelsConfiguration;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System.IO;
 
 namespace DAL.Models.EntityModels
 {
-    public class ContexDb : DbContext
+    public class ContexDb : IdentityDbContext<Users>
     {
-        public DbSet<Users> Users { get; set; }
+        //public DbSet<Users> Users { get; set; }
         public DbSet<StoragePlaces> StoragePlaces { get; set; }
         public DbSet<Mediums> Mediums { get; set; }
         public DbSet<HireHistory> HireHistory { get; set; }
+        public DbSet<ToDoEntity> ToDos { get; set; }
 
         public ContexDb()
         {

@@ -8,6 +8,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using AutoMapper;
+using Microsoft.AspNetCore.Identity;
+using DAL.Models.EntityModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace Authorization
 {
@@ -23,6 +27,25 @@ namespace Authorization
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ContexDb>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+                    b => b.MigrationsAssembly("DataAccessLibrary")));
+
+            services.AddAutoMapper();
+
+            // add identity
+            var builder = services.AddIdentityCore<Users>(o =>
+            {
+                // configure identity options
+                o.Password.RequireDigit = false;
+                o.Password.RequireLowercase = false;
+                o.Password.RequireUppercase = false;
+                o.Password.RequireNonAlphanumeric = false;
+                o.Password.RequiredLength = 6;
+            });
+            builder = new IdentityBuilder(builder.UserType, typeof(IdentityRole), builder.Services);
+            builder.AddEntityFrameworkStores<ContexDb>().AddDefaultTokenProviders();
+
             services.AddCors();
 
             services.AddMvc();
