@@ -25,7 +25,7 @@ export class RegisterComponent implements OnInit {
     private validEmail: boolean;
     private regexpEmailValidation = new RegExp('^[^\s@]+@[^\s@]+\.[^\s@]{2,}$');
     private validPhone: boolean;
-    private regexpPhoneValidation = new RegExp("(\-?[0-9]){7}");
+    private regexpPhoneValidation = new RegExp("(\-?[0-9]){9}");
     
     constructor(private userService: UserService, private router: Router) { }
 
