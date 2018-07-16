@@ -9,7 +9,6 @@ namespace DAL.Models.EntityModels
 {
     public class ContexDb : IdentityDbContext<Users>
     {
-        //public DbSet<Users> Users { get; set; }
         public DbSet<StoragePlaces> StoragePlaces { get; set; }
         public DbSet<Mediums> Mediums { get; set; }
         public DbSet<HireHistory> HireHistory { get; set; }

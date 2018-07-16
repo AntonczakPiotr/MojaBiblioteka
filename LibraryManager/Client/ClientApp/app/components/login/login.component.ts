@@ -4,6 +4,7 @@ import { Subscription } from 'rxjs';
 import { Router, ActivatedRoute } from '@angular/router';
 
 import { Credentials } from '../../models/Credentials';
+import { UserService } from '../../services/user.service';
 
 @Component({
     selector: 'login',
@@ -14,10 +15,14 @@ export class LoginComponent implements OnInit, OnDestroy {
 
     private subscription: Subscription;
 
+    errors: string[] = [];
+
     brandNew: boolean;
+    isRequesting: boolean;
+    submitted: boolean = false;
     credentials: Credentials = { login: '', password: '' };
 
-    constructor(private router: Router, private activatedRoute: ActivatedRoute) { }
+    constructor(private userService: UserService, private router: Router, private activatedRoute: ActivatedRoute) { }
 
     ngOnInit(): void {
         this.subscription = this.activatedRoute.queryParams.subscribe(
@@ -29,5 +34,22 @@ export class LoginComponent implements OnInit, OnDestroy {
 
     ngOnDestroy(): void {
         this.subscription.unsubscribe();
+    }
+
+    login({ value, valid }: { value: Credentials, valid: boolean }) {
+        this.submitted = true;
+        this.isRequesting = true;
+        this.errors = [];
+        if (valid) {
+            this.userService.login(value.login, value.password)
+                .finally(() => this.isRequesting = false)
+                .subscribe(
+                    result => {
+                        if (result) {                        
+                            this.router.navigate(['/loggedUser/startView']);
+                        }
+                    },
+                    errors => this.errors.push(errors));
+        }
     }
 }

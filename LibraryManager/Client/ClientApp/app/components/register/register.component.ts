@@ -68,7 +68,6 @@ export class RegisterComponent implements OnInit {
                     errors => this.errors.push(errors));
         }
         else {
-<<<<<<< HEAD
             if (!this.notEmptyValue) {              
                 this.errors.push('Jedno lub kilka pól formularza nie zostało uzupełnione.');
                 this.isRequesting = false;
@@ -85,12 +84,6 @@ export class RegisterComponent implements OnInit {
                 this.errors.push('Hasło nie zostało prawidłowo potwierdzone.');
                 this.isRequesting = false;
             }
-=======
-            //this.userService.register(value.name, value.surname, value.email, value.phone, value.adress, value.login, value.password)
-            //    .finally(this.isRequesting = true)
-            //    .subscribe()
-
->>>>>>> 66ff196a64321544474de6de0aaf12ed6d2a21a6
         }
         
     }

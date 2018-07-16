@@ -21,9 +21,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\app\authenticate-xhr.backend.ts" />
+    <None Remove="ClientApp\app\components\auth.guard.ts" />
+    <None Remove="ClientApp\app\components\loggedUser\startView\startView.component.ts" />
+    <None Remove="ClientApp\app\components\loggedUser\startView\startView.service.ts" />
     <None Remove="ClientApp\app\components\login\login.component.ts" />
     <None Remove="ClientApp\app\components\register\register.component.ts" />
     <None Remove="ClientApp\app\models\Credentials.ts" />
+    <None Remove="ClientApp\app\models\StartViewHelper.ts" />
     <None Remove="ClientApp\app\models\UserRegistration.ts" />
     <None Remove="ClientApp\app\services\user.service.ts" />
   </ItemGroup>
@@ -33,9 +38,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\app\auth.guard.ts" />
+    <TypeScriptCompile Include="ClientApp\app\authenticate-xhr.backend.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\loggedUser\startView\startView.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\loggedUser\startView\startView.service.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\login\login.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\register\register.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\models\Credentials.ts" />
+    <TypeScriptCompile Include="ClientApp\app\models\StartViewHelper.ts" />
     <TypeScriptCompile Include="ClientApp\app\models\UserRegistration.ts" />
     <TypeScriptCompile Include="ClientApp\app\services\user.service.ts" />
   </ItemGroup>

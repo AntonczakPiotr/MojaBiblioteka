@@ -7,12 +7,28 @@
                 <span class='icon-bar'>2</span>
                 <span class='icon-bar'>3</span>
             </button>
-            <a class='navbar-brand' [routerLink]="['/home']">Menedzer domowej biblioteki</a>
+            <a *ngIf="status" class='navbar-brand' [routerLink]="['/loggedUser/startView']">Menedzer domowej biblioteki</a>
+            <a *ngIf="status" class='navbar-brand' (click)="logout()" href="#">Wyloguj</a>
+            <a *ngIf="!status" class='navbar-brand' [routerLink]="['/home']">Menedzer domowej biblioteki</a>
         </div>
+
         <div class='clearfix'></div>
         <div class='navbar-collapse collapse'>
-            <ul class='nav navbar-nav'>
 
+            <ul *ngIf="status" class='nav navbar-nav'>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/loggedUser/startView']">
+                        <span class='glyphicon glyphicon-home'></span> Menu 1
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/loggedUser/startView']">
+                        <span class='glyphicon glyphicon-th-list'></span> Menu 2
+                    </a>
+                </li>
+            </ul>
+
+            <ul *ngIf="!status" class='nav navbar-nav'>
                 <li [routerLinkActive]="['link-active']">
                     <a [routerLink]="['/login']">
                         <span class='glyphicon glyphicon-home'></span> Zaloguj sie
@@ -23,35 +39,8 @@
                         <span class='glyphicon glyphicon-th-list'></span> Zarejestruj sie
                     </a>
                 </li>
-                <li>
-                    <a> Okienka do podlaczenia</a>
-                </li>
-                <li>
-                    <a> Okienko resetowania hasla</a>
-                </li>
-                <li>
-                    <a> Okienko wyswietlania uzytkownikow</a>
-                </li>
-                <li>
-                    <a> Okienko glowne biblioteki</a>
-                </li>
-                <li>
-                    <a> Okienko z lista ksiazek</a>
-                </li>
-                <li>
-                    <a> Okienko edycji ksiazki</a>
-                </li>
-                <li>
-                    <a> Okienko resetowania hasla</a>
-                </li>
-                <li>
-                    <a> Okienko wyboru statystyk</a>
-                </li>
-                <li>
-                    <a> Okienko statystyk wypozyczen</a>
-                </li>
-
             </ul>
+
         </div>
     </div>
 </div>

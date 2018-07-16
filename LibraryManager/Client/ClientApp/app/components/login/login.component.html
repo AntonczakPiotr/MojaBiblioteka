@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿<div class="container">
+<div class="container">
     <div class="row main">
         <div class="panel-heading">
             <div class="panel-title text-center">
@@ -7,32 +6,30 @@
                 <hr />
             </div>
         </div>
+     </div>
+</div>
 
         <div class="row">
             <div class="cols-sm-10 new-user-alert">
                 <div *ngIf="brandNew" class="alert alert-success" role="alert">
                     <strong>Rejestracja zakończona pomyślnie!</strong> Zaloguj się na swoje konto
-                </div>               
-=======
+                </div>  
+             </div>
+        </div>
+
 ﻿
     <div class="container">
         <div class="row main">
-            <div class="panel-heading">
-                <div class="panel-title text-center">
-                    <h4 class="title">Zaloguj się</h4>
-                </div>
->>>>>>> 66ff196a64321544474de6de0aaf12ed6d2a21a6
-            </div>
 
             <div class="main-login main-center">
-                <form class="form-horizontal" method="post" action="#">
+                <form #f="ngForm" novalidate (ngSubmit)="login(f)">
 
                     <div class="form-group">
                         <label for="login" class="cols-sm-2 control-label">Login</label>
                         <div class="cols-sm-10">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                                <input type="text" class="form-control" name="login" id="login" placeholder="Login" />
+                                <input type="text" class="form-control" name="login" id="login" placeholder="Login" ngModel tmFocus />
                             </div>
                         </div>
                     </div>
@@ -42,13 +39,23 @@
                         <div class="cols-sm-10">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                                <input type="password" class="form-control" name="password" id="password" placeholder="Hasło" />
+                                <input type="password" class="form-control" name="password" id="password" placeholder="Hasło" ngModel />
                             </div>
                         </div>
                     </div>
 
                     <div class="form-group ">
-                        <button type="button" class="btn btn-primary btn-lg btn-block login-button">Zaloguj się</button>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block login-button" [disabled]="f.invalid">Zaloguj się</button>
+                    </div>
+
+                    <div *ngFor="let error of errors">
+                        <div class="row">
+                            <div class="cols-sm-10 new-user-alert">
+                                <div *ngIf="errors" class="alert alert-danger" role="alert">
+                                    <strong>Błąd: </strong> {{error}}
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </form>
