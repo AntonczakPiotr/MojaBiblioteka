@@ -47,6 +47,7 @@ export class UserService {
                 });
 
                 //ustawiamy w local storage id obecnie zalogowanego uzytkownika, potem pobierajmy to id ze storage
+                //pobrac jakoś wartość z json lub przeksztalcic na objekt               
                 this.localStorage.setItem('id', res.id);
                 return true;
             })
