@@ -2,9 +2,9 @@
 import { Observable, BehaviorSubject } from 'rxjs/Rx';
 import { Injectable } from "@angular/core";
 import { LocalStorage } from '@ngx-pwa/local-storage';
+import { LoginResponse } from '../services/login.response';
 
 @Injectable()
-
 export class UserService {
 
     baseUrl: string = 'http://localhost:55833/api';
@@ -47,8 +47,8 @@ export class UserService {
                 });
 
                 //ustawiamy w local storage id obecnie zalogowanego uzytkownika, potem pobierajmy to id ze storage
-                //pobrac jakoś wartość z json lub przeksztalcic na objekt               
-                this.localStorage.setItem('id', res.id);
+                //pobrac jakoś wartość z json lub przeksztalcic na objekt     
+                let obj: LoginResponse = JSON.parse(res);
                 return true;
             })
             .catch(this.handleError);

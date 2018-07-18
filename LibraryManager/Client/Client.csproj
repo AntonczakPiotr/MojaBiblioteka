@@ -30,6 +30,7 @@
     <None Remove="ClientApp\app\models\Credentials.ts" />
     <None Remove="ClientApp\app\models\StartViewHelper.ts" />
     <None Remove="ClientApp\app\models\UserRegistration.ts" />
+    <None Remove="ClientApp\app\services\login.response.ts" />
     <None Remove="ClientApp\app\services\user.service.ts" />
   </ItemGroup>
 
@@ -47,6 +48,7 @@
     <TypeScriptCompile Include="ClientApp\app\models\Credentials.ts" />
     <TypeScriptCompile Include="ClientApp\app\models\StartViewHelper.ts" />
     <TypeScriptCompile Include="ClientApp\app\models\UserRegistration.ts" />
+    <TypeScriptCompile Include="ClientApp\app\services\login.response.ts" />
     <TypeScriptCompile Include="ClientApp\app\services\user.service.ts" />
   </ItemGroup>
 
